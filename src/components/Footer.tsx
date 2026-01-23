@@ -82,17 +82,14 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3 text-sm">
               <li className="flex justify-between text-muted-foreground">
-                <span>Montag - Donnerstag</span>
+                <span>Montag - Freitag</span>
                 <span className="text-foreground">09:00 - 19:00</span>
               </li>
             <li className="flex justify-between text-muted-foreground">
-                <span>Freitag</span>
-                <span className="text-foreground">09:00 - 20:00 </span>
-              </li>
-               <li className="flex justify-between text-muted-foreground">
                 <span>Samstag</span>
                 <span className="text-foreground">09:00 - 18:00 </span>
               </li>
+               
               <li className="flex justify-between text-muted-foreground">
                 <span>Sonntag</span>
                 <span className="text-foreground">Geschlossen</span>
@@ -109,8 +106,8 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground text-sm">
-                 Johannisstraße 23<br />
-                  Nuremberg 90419, Deutschland
+                 Äußere Sulzbacher Straße 128<br />
+                  Nürnberg 90491, Deutschland
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -119,7 +116,7 @@ export const Footer = () => {
                   href="tel:+4930123456789" 
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                 01522 1817071
+                0176 29117689
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -140,7 +137,7 @@ export const Footer = () => {
       <div className="border-t border-border">
         <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Dein Barbershop. Alle Rechte vorbehalten.
+            © {currentYear} Lord Barbershop Coiffeur. Alle Rechte vorbehalten.
           </p> 
           <div className="flex gap-6 text-sm">
             <Link to="/impressum" className="text-muted-foreground hover:text-primary transition-colors">
